@@ -11,7 +11,7 @@ export const BasicToggleDemo = () => {
 
       <div className="space-y-6">
         {/* Toggle Visual */}
-        <div className="flex items-center justify-center p-12 bg-gradient-to-br from-blue-50 to-purple-50 dark:from-gray-700 dark:to-gray-600 rounded-xl">
+        <div className="flex items-center justify-center p-12 bg-linear-to-br from-blue-50 to-purple-50 dark:from-gray-700 dark:to-gray-600 rounded-xl">
           <div className="text-center">
             <div className="text-8xl mb-4">
               {isOn ? '💡' : '🌙'}
