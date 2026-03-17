@@ -15,7 +15,7 @@ export const ThemeToggleDemo = () => {
           className={`p-8 rounded-xl transition-all duration-300 ${
             isDark
               ? 'bg-gray-900 text-white'
-              : 'bg-gradient-to-br from-blue-100 to-purple-100 text-gray-900'
+              : 'bg-linear-to-br from-blue-100 to-purple-100 text-gray-900'
           }`}
         >
           <div className="text-center">
