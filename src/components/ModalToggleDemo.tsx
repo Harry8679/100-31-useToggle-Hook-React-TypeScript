@@ -14,7 +14,7 @@ export const ModalToggleDemo = () => {
         <div className="text-center">
           <button
             onClick={toggle}
-            className="px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-600 hover:from-purple-600 hover:to-pink-700 text-white rounded-xl font-bold text-lg transition-all shadow-lg hover:shadow-xl"
+            className="px-8 py-4 bg-linear-to-r from-purple-500 to-pink-600 hover:from-purple-600 hover:to-pink-700 text-white rounded-xl font-bold text-lg transition-all shadow-lg hover:shadow-xl"
           >
             Ouvrir le Modal
           </button>
