@@ -8,7 +8,7 @@ import { FeatureTogglesDemo } from './FeatureTogglesDemo';
 
 export const ToggleDemo = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 py-12 px-4">
+    <div className="min-h-screen bg-linear-to-br from-blue-50 via-purple-50 to-pink-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 py-12 px-4">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">
@@ -220,7 +220,7 @@ return (
           </div>
 
           {/* Use Cases */}
-          <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl shadow-lg p-8 text-white">
+          <div className="bg-linear-to-r from-blue-500 to-purple-600 rounded-xl shadow-lg p-8 text-white">
             <h2 className="text-2xl font-bold mb-6">🎯 Cas d'usage courants</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
